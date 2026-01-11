@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: url("/images/BrewedTales.jpg");
+  --foreground: #311313;
 }
 
 @theme inline {
@@ -14,13 +14,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: url("/images/BrewedTales.jpg");
+    --foreground: #F2E0B2;
   }
 }
 
 body {
   background: var(--background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

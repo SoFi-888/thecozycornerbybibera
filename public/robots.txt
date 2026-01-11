@@ -1,0 +1,3 @@
+Sitemap: https://thecozycornerbybibera.vercel.app/sitemap.xml
+User-agent: *
+Disallow:

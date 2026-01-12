@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-<meta name="google-site-verification" content="Rfg6aAkoYvy4EBdubgO02deoGDsldd6F_Uqj8qad3Iw" />
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +16,9 @@ export const metadata = {
   title: "Brewed Tales",
   description: "A cozy online bookstore with great recommendations perfect for your studies or reference materials.",
 };
+<head>
+<meta name="google-site-verification" content="Rfg6aAkoYvy4EBdubgO02deoGDsldd6F_Uqj8qad3Iw" />
+</head>
 
 export default function RootLayout({ children }) {
   return (

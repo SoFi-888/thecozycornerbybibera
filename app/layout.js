@@ -16,13 +16,13 @@ export const metadata = {
   title: "Brewed Tales",
   description: "A cozy online bookstore with great recommendations perfect for your studies or reference materials.",
 };
-<head>
-<meta name="google-site-verification" content="Rfg6aAkoYvy4EBdubgO02deoGDsldd6F_Uqj8qad3Iw" />
-</head>
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="Rfg6aAkoYvy4EBdubgO02deoGDsldd6F_Uqj8qad3Iw" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F2E0B2] text-[#311313]`}>
         <header className="border-b border-[#973519] bg-[#62261F] text-[#F2E0B2]">
